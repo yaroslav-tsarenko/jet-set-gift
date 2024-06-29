@@ -1,0 +1,166 @@
+.explore-exclusive-gifts {
+  margin: 0;
+  width: 1680px;
+  position: relative;
+  font-size: inherit;
+  line-height: 53px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.brand-links {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.view-our-faqs {
+  text-decoration: underline;
+}
+.have-a-question-container {
+  width: 1680px;
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.brand-links1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 16px;
+  color: #000;
+  font-family: "Open Sans";
+}
+.brand-images-icon {
+  margin-left: -184px;
+}
+.brand-images-icon,
+.brand-images-icon1 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 120px;
+}
+.logo-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.image-12-icon {
+  position: absolute;
+  width: calc(100% - 27px);
+  top: 13px;
+  right: 13px;
+  left: 14px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 93px;
+  object-fit: contain;
+  z-index: 1;
+}
+.brand-image {
+  height: 120px;
+  flex: 1;
+  position: relative;
+}
+.brand-images {
+  width: 120px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brand-images-icon10,
+.brand-images-icon2,
+.brand-images-icon3,
+.brand-images-icon4,
+.brand-images-icon5,
+.brand-images-icon6,
+.brand-images-icon7,
+.brand-images-icon8,
+.brand-images-icon9 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 120px;
+}
+.brand-footer,
+.brand-logos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.brand-logos {
+  width: 1920px;
+  overflow-x: auto;
+  flex-direction: row;
+  padding: 0 12px 0 132px;
+  gap: 64px;
+}
+.brand-footer {
+  align-self: stretch;
+  background-color: #e6dff1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 80px 0;
+  gap: 24px;
+  text-align: left;
+  font-size: 48px;
+  color: #1c1c1c;
+  font-family: Almarai;
+}
+@media screen and (max-width: 1425px) {
+  .brand-logos {
+    padding-left: 66px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .explore-exclusive-gifts {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .brand-logos {
+    gap: 32px;
+    padding-left: 33px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .explore-exclusive-gifts {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .brand-logos {
+    gap: 16px;
+  }
+  .brand-footer {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}

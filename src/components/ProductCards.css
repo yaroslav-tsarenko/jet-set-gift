@@ -1,0 +1,51 @@
+.image-5-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards1,
+.upto-10-off1 {
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  font-family: inherit;
+  color: #1c1c1c;
+}
+.product-cards1,
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.product-cards1 {
+  height: 336px;
+  width: 402px;
+  gap: 17px;
+  min-width: 382px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 18px;
+  color: #909b92;
+  font-family: Almarai;
+}
+@media screen and (max-width: 450px) {
+  .upto-10-off1 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .product-cards1 {
+    min-width: 100%;
+  }
+}

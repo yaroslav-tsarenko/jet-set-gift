@@ -1,0 +1,258 @@
+.logo-icon3 {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  object-fit: cover;
+}
+.jetsetgift1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.logo3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.explore-a-seamless1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #fff;
+}
+.logo-parent {
+  width: 299px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  min-width: 299px;
+}
+.products1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+}
+.gaming-cards1,
+.travel-cards1 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.travel-cards1 {
+  min-width: 98.7px;
+}
+.gaming-cards1 {
+  width: 117.8px;
+}
+.festival-cards1 {
+  width: 156.2px;
+}
+.clothes-cards1,
+.festival-cards1,
+.food-cards1 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.food-cards1 {
+  width: 97.3px;
+}
+.clothes-cards1 {
+  min-width: 108px;
+}
+.product-categories {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  min-width: 164px;
+}
+.get-to-know1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+}
+.about-us1,
+.agent-contact1,
+.contact-us1,
+.services1 {
+  width: 98.7px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.agent-contact1,
+.contact-us1,
+.services1 {
+  width: 117.8px;
+}
+.agent-contact1,
+.services1 {
+  width: 156.2px;
+}
+.services1 {
+  width: 97.3px;
+}
+.link-categories2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  min-width: 164px;
+}
+.legal-pages1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+}
+.conditions1,
+.terms1 {
+  width: 98.7px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.conditions1 {
+  width: 117.8px;
+}
+.refund-policy1 {
+  width: 156.2px;
+  display: inline-block;
+}
+.cancellation-policy1,
+.refund-policy1 {
+  position: relative;
+  line-height: 22px;
+}
+.link-categories3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  min-width: 164px;
+}
+.footer-content1,
+.footer-links1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer-links1 {
+  width: 849.7px;
+  justify-content: flex-start;
+  gap: 96px;
+  min-width: 849.7px;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+.footer-content1 {
+  width: 1680px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.shopsphere-all-rights1 {
+  position: relative;
+  line-height: 22px;
+}
+.legal-menu1 {
+  height: 22px;
+  width: 348px;
+  max-width: 100%;
+}
+.footer-menu1 {
+  width: 1680px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+.footer-desktop1 {
+  align-self: stretch;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 160px 20px;
+  box-sizing: border-box;
+  gap: 48px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 32px;
+  color: #f0f1ea;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1275px) {
+  .footer-links1,
+  .logo-parent {
+    flex: 1;
+  }
+  .footer-content1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .footer-links1 {
+    gap: 48px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .jetsetgift1 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .footer-links1,
+  .footer-menu1 {
+    flex-wrap: wrap;
+  }
+  .footer-desktop1 {
+    gap: 24px;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .jetsetgift1 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .get-to-know1,
+  .legal-pages1,
+  .products1 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .footer-links1 {
+    gap: 24px;
+  }
+}

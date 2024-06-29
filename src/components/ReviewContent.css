@@ -1,0 +1,116 @@
+.outstanding-service-verizon {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  font-weight: 700;
+}
+.user-avatar-child {
+  height: 96px;
+  width: 96px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.alma-rai,
+.customer {
+  position: relative;
+  display: inline-block;
+}
+.alma-rai {
+  margin: 0;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 99px;
+}
+.customer {
+  font-size: 16px;
+  line-height: 22px;
+  color: #e6dff1;
+  min-width: 69px;
+}
+.user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+.rating-child,
+.rating-inner,
+.rating-item,
+.review-star-icon,
+.star-icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  border-radius: 0.5px;
+  min-height: 25px;
+}
+.rating,
+.user-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-detail {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 224px;
+  max-width: 100%;
+  gap: 20px;
+}
+.review-content,
+.user-avatar {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.user-avatar {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+  font-size: 24px;
+}
+.review-content {
+  width: 544px;
+  border-radius: 20px;
+  background-color: #e6dff1;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+  gap: 64px;
+  text-align: left;
+  font-size: 18px;
+  color: #1c1c1c;
+  font-family: Almarai;
+}
+@media screen and (max-width: 950px) {
+  .user-avatar {
+    gap: 24px;
+  }
+  .review-content {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .alma-rai {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .user-detail {
+    flex-wrap: wrap;
+  }
+  .review-content {
+    gap: 16px;
+  }
+}

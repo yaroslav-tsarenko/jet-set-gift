@@ -1,0 +1,151 @@
+.jetsetgift-your-gateway {
+  margin: 0;
+  width: 966px;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.hero-banner-child {
+  border: 0;
+  background-color: transparent;
+  width: 939px;
+  height: 48px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #273524;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}
+.hero-banner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 80px 20px 80px 120px;
+  box-sizing: border-box;
+  gap: 36px;
+  background-image: url(/public/hero-banner@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: #f0f1ea;
+  font-family: Inter;
+}
+.over-10000 {
+  color: #9c7dcd;
+}
+.stories-of-over-container {
+  margin: 0;
+  width: 660px;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.testimonial-heading {
+  width: 1686px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-blocks-icon,
+.image-blocks-icon1 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.testimonial-images {
+  width: 1685.1px;
+  height: 585.2px;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.customer-testimonial,
+.homepage,
+.testimonial-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.customer-testimonial {
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: center;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  gap: 40px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #1c1c1c;
+  font-family: Inter;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1425px) {
+  .hero-banner {
+    padding-left: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .jetsetgift-your-gateway {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .hero-banner {
+    gap: 18px;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+  .stories-of-over-container {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .customer-testimonial {
+    gap: 20px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .jetsetgift-your-gateway,
+  .stories-of-over-container {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .customer-testimonial {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}

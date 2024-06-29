@@ -1,0 +1,394 @@
+.user-account {
+  margin: 0;
+  position: relative;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.your-active-downloads {
+  position: relative;
+  line-height: 22px;
+}
+.header1 {
+  align-self: stretch;
+  border-radius: 5px;
+  background-color: #e6dff1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 24px;
+}
+.download-item-background {
+  height: 127.1px;
+  width: 127.1px;
+  position: relative;
+  object-fit: cover;
+}
+.discount-20-off,
+.fenty-beauty-50 {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.discount-20-off {
+  line-height: 22px;
+}
+.product,
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+}
+.product {
+  width: 321.1px;
+  flex-direction: row;
+  gap: 15px;
+  max-width: 100%;
+}
+.subscription-time {
+  white-space: nowrap;
+}
+.credits,
+.subscription-time {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.subscription-details {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.hrs,
+.up-time {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.subscription-details1 {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.april-2024,
+.next-renewal {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.renewal-date {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.icons-block {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cancel {
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 42px;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.icons-block1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.renew {
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 43px;
+}
+.link1,
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.links {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 12px;
+  font-family: Montserrat;
+}
+.cart-row-1,
+.renewal {
+  display: flex;
+  justify-content: flex-start;
+}
+.renewal {
+  width: 167px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 42px;
+}
+.cart-row-1 {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 66px;
+  max-width: 100%;
+}
+.account-info-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #b6b6b6;
+  box-sizing: border-box;
+}
+.account-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px;
+  max-width: 100%;
+}
+.user-details {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 105px;
+}
+.header2 {
+  align-self: stretch;
+  border-radius: 5px;
+  background-color: #e6dff1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 24px;
+}
+.darnell-roob,
+.name {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 51px;
+}
+.darnell-roob {
+  text-align: right;
+  min-width: 112px;
+}
+.checkout-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 25px;
+  gap: 20px;
+}
+.email-address {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 125px;
+}
+.darnellroobhotmailcom {
+  position: relative;
+  line-height: 22px;
+  text-align: right;
+  white-space: nowrap;
+}
+.checkout-info1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 25px;
+  gap: 20px;
+}
+.basic,
+.plan {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 39px;
+}
+.basic {
+  text-align: right;
+  min-width: 49px;
+}
+.checkout-info2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 25px;
+  gap: 20px;
+}
+.april-20241,
+.expiry-date {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 99px;
+}
+.april-20241 {
+  text-align: right;
+  min-width: 118px;
+}
+.checkout-info3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 25px;
+  gap: 20px;
+}
+.auto-renewal,
+.on {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 119px;
+}
+.on {
+  text-align: right;
+  min-width: 26px;
+}
+.checkout-details,
+.checkout-info4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 25px;
+  gap: 20px;
+}
+.checkout-details {
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 36px;
+  gap: 36px;
+}
+.account,
+.account-content,
+.details {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.details {
+  width: 504px;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 504px;
+}
+.account,
+.account-content {
+  flex-direction: row;
+}
+.account {
+  width: 1537.1px;
+  justify-content: flex-start;
+  gap: 47px;
+}
+.account-content {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 20px 0 22px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  font-family: Archivo;
+}
+@media screen and (max-width: 1275px) {
+  .details {
+    flex: 1;
+  }
+  .account {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .cart-row-1 {
+    flex-wrap: wrap;
+    gap: 33px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .user-account {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .cart-row-1 {
+    gap: 16px;
+  }
+  .account-info {
+    gap: 18px;
+    min-width: 100%;
+  }
+  .checkout-info1 {
+    flex-wrap: wrap;
+  }
+  .checkout-details {
+    gap: 18px;
+  }
+  .details {
+    gap: 23px;
+    min-width: 100%;
+  }
+  .account {
+    gap: 23px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .user-account {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .checkout-info,
+  .checkout-info2,
+  .checkout-info3 {
+    flex-wrap: wrap;
+  }
+}

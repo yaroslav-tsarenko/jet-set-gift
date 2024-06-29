@@ -1,0 +1,148 @@
+.different {
+  color: #000;
+}
+.we-are-different-container {
+  margin: 0;
+  width: 468px;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 468px;
+  max-width: 100%;
+}
+.button4 {
+  height: 46px;
+  width: 177px;
+}
+.features,
+.value-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+}
+.value-content {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 120px;
+}
+.features {
+  width: 828px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 20px 0;
+  min-height: 490px;
+}
+.empty-feature-icon {
+  width: 828px;
+  position: relative;
+  border-radius: 20px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.features-parent,
+.value-proposition {
+  align-self: stretch;
+  background-color: #e6dff1;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.features-parent {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+  font-size: 24px;
+  color: #000;
+}
+.value-proposition {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 80px 0;
+  gap: 24px;
+  text-align: left;
+  font-size: 48px;
+  color: #9c7dcd;
+  font-family: Almarai;
+}
+@media screen and (max-width: 1900px) {
+  .features {
+    min-height: auto;
+  }
+  .features-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .features {
+    min-height: auto;
+  }
+  .features-parent {
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+  .value-proposition {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .we-are-different-container {
+    font-size: 38px;
+    line-height: 42px;
+    flex: 1;
+    min-width: 100%;
+  }
+  .value-content {
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+  .features {
+    min-height: auto;
+  }
+  .features-parent {
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+  .value-proposition {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .we-are-different-container {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .value-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .features {
+    min-height: auto;
+  }
+  .features-parent {
+    flex-wrap: wrap;
+  }
+}

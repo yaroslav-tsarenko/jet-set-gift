@@ -1,0 +1,270 @@
+.logo-icon1 {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  object-fit: cover;
+}
+.jetsetgift {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.logo1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.explore-a-seamless {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #fff;
+}
+.company-info {
+  width: 299px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  min-width: 299px;
+}
+.products {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.gaming-cards,
+.travel-cards {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.travel-cards {
+  min-width: 98.7px;
+}
+.gaming-cards {
+  width: 117.8px;
+}
+.festival-cards {
+  width: 156.2px;
+}
+.clothes-cards,
+.festival-cards,
+.food-cards {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.food-cards {
+  width: 97.3px;
+}
+.clothes-cards {
+  min-width: 108px;
+}
+.product-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  min-width: 164px;
+}
+.get-to-know {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.about-us,
+.agent-contact,
+.contact-us,
+.services {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.about-us {
+  text-decoration: none;
+  width: 98.7px;
+  color: inherit;
+}
+.agent-contact,
+.contact-us,
+.services {
+  width: 117.8px;
+}
+.agent-contact,
+.services {
+  width: 156.2px;
+}
+.services {
+  text-decoration: none;
+  width: 97.3px;
+  color: inherit;
+}
+.link-categories {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  min-width: 164px;
+}
+.legal-pages {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.conditions,
+.terms {
+  width: 98.7px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.conditions {
+  width: 117.8px;
+}
+.refund-policy {
+  width: 156.2px;
+  display: inline-block;
+}
+.cancellation-policy,
+.refund-policy {
+  position: relative;
+  line-height: 22px;
+}
+.link-categories1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  min-width: 164px;
+}
+.footer-content,
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer-links {
+  width: 849.7px;
+  justify-content: flex-start;
+  gap: 96px;
+  min-width: 849.7px;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+.footer-content {
+  width: 1680px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.shopsphere-all-rights {
+  position: relative;
+  line-height: 22px;
+}
+.legal-menu {
+  height: 22px;
+  width: 348px;
+  max-width: 100%;
+}
+.footer-menu {
+  width: 1680px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+.footer-desktop {
+  align-self: stretch;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 160px 20px;
+  box-sizing: border-box;
+  gap: 48px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 32px;
+  color: #f0f1ea;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1425px) {
+  .company-info,
+  .footer-links {
+    flex: 1;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 950px) {
+  .jetsetgift {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .footer-links {
+    gap: 48px;
+    min-width: 100%;
+  }
+  .footer-links,
+  .footer-menu {
+    flex-wrap: wrap;
+  }
+  .footer-desktop {
+    gap: 24px;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .jetsetgift {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .get-to-know,
+  .legal-pages,
+  .products {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .footer-links {
+    gap: 24px;
+  }
+}

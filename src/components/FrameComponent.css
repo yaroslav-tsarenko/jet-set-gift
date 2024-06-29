@@ -1,0 +1,136 @@
+.frame-child {
+  width: 686px;
+  position: relative;
+  border-radius: 20px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.the-world {
+  color: #000;
+}
+.gifts-for-your-friends-all-aro {
+  font-weight: 600;
+}
+.span {
+  color: #000;
+}
+.gifts-for-your-container {
+  margin: 0;
+  width: 414px;
+  height: 159px;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  display: inline-block;
+  max-width: 100%;
+  font-family: inherit;
+}
+.let-your-creativity {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  color: #000;
+}
+.message-block {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.button6 {
+  width: 175px;
+  height: 46px;
+}
+.frame-container,
+.world-content,
+.world-message {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.world-message {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 64px;
+}
+.frame-container,
+.world-content {
+  box-sizing: border-box;
+}
+.world-content {
+  flex: 1;
+  flex-direction: column;
+  padding: 155px 0 0;
+  min-width: 538px;
+}
+.frame-container {
+  align-self: stretch;
+  background-color: #e6dff1;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 80px 120px;
+  gap: 166px;
+  text-align: left;
+  font-size: 48px;
+  color: #9c7dcd;
+  font-family: Inter;
+}
+@media screen and (max-width: 1900px) {
+  .frame-child {
+    flex: 1;
+  }
+  .frame-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .frame-container {
+    gap: 83px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .gifts-for-your-container {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .world-message {
+    gap: 32px;
+  }
+  .world-content {
+    padding-top: 101px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frame-container {
+    gap: 41px;
+    padding: 52px 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gifts-for-your-container {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .message-block,
+  .world-message {
+    gap: 16px;
+  }
+  .frame-container {
+    gap: 21px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}

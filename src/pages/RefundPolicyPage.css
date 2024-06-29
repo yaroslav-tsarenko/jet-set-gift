@@ -1,0 +1,273 @@
+.please-refer-to,
+.refund-policy {
+  width: 1680px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.refund-policy {
+  margin: 0;
+  font-size: inherit;
+  line-height: 53px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.please-refer-to {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Work Sans";
+}
+.page-content {
+  align-self: stretch;
+  background-color: #e6dff1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  gap: 10px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #1c1c1c;
+  font-family: Archivo;
+}
+.wishdeck-we-us {
+  width: 1680px;
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  font-family: "Work Sans";
+  color: #454545;
+  display: inline-block;
+  max-width: 100%;
+}
+.eligibility-for-refunds {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 43px;
+}
+.eligibility-for-refunds-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.the-product-or,
+.you-have-canceled {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.eligibility-criteria,
+.eligibility-for-refunds-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eligibility-criteria {
+  align-self: stretch;
+  gap: 16px;
+  font-size: 16px;
+  font-family: "Work Sans";
+}
+.eligibility-for-refunds-parent {
+  width: 1680px;
+  gap: 32px;
+  max-width: 100%;
+}
+.non-refundable-items-and-servi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 43px;
+}
+.non-refundable-items-and-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.certain-items-or {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  font-family: "Work Sans";
+  color: #454545;
+}
+.non-refundable-items-and-servi-parent {
+  width: 1680px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.exceptions-and-special-circums {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 43px;
+}
+.exceptions-and-special-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.exceptions-to-this {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  font-family: "Work Sans";
+  color: #454545;
+}
+.exceptions-and-special-circums-parent {
+  width: 1680px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.contact-us,
+.contact-us1 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.contact-us1 {
+  padding-left: 43px;
+}
+.contact-us {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  font-weight: 700;
+}
+.blank-line,
+.by-using-our,
+.if-you-have {
+  margin: 0;
+}
+.if-you-have-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  font-family: "Work Sans";
+  color: #454545;
+}
+.contact-us-parent {
+  width: 1680px;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.contact-us-parent,
+.refundpolicypage,
+.wishdeck-we-us-or-our-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.wishdeck-we-us-or-our-parent {
+  align-self: stretch;
+  align-items: center;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  gap: 64px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 32px;
+  color: #262626;
+  font-family: Archivo;
+}
+.refundpolicypage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .wishdeck-we-us-or-our-parent {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .refund-policy {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .eligibility-for-refunds-container {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .eligibility-for-refunds-parent {
+    gap: 16px;
+  }
+  .non-refundable-items-and-container {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .non-refundable-items-and-servi-parent {
+    gap: 16px;
+  }
+  .exceptions-and-special-container {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .exceptions-and-special-circums-parent {
+    gap: 16px;
+  }
+  .contact-us {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .contact-us-parent {
+    gap: 16px;
+  }
+  .wishdeck-we-us-or-our-parent {
+    gap: 32px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .refund-policy {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .contact-us,
+  .eligibility-for-refunds-container,
+  .exceptions-and-special-container,
+  .non-refundable-items-and-container {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .wishdeck-we-us-or-our-parent {
+    gap: 16px;
+  }
+}

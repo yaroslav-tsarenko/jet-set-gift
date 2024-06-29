@@ -1,0 +1,43 @@
+.empty-card-icon {
+  height: 240px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.empty-card-content,
+.empty-card-icon,
+.instacart {
+  align-self: stretch;
+  position: relative;
+}
+.instacart {
+  margin: 0;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.empty-card-content {
+  font-size: 16px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.product-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #545454;
+  font-family: "Open Sans";
+}
+@media screen and (max-width: 450px) {
+  .instacart {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

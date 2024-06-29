@@ -1,0 +1,237 @@
+.contact-information {
+  position: relative;
+  line-height: 22px;
+}
+.form-field {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 54px;
+  font-family: "Work Sans";
+  font-size: 16px;
+  color: #000;
+}
+.contact-information-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.payment-information {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  font-family: Inter;
+  flex-shrink: 0;
+}
+.card-information,
+.card-number-placeholder {
+  position: relative;
+  line-height: 22px;
+}
+.card-number-sub-fields-child,
+.card-number-sub-fields-inner,
+.card-number-sub-fields-item {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 24px;
+}
+.card-number-sub-fields {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.form-field1 {
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid #6d18f1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  gap: 20px;
+  color: #d9d9d9;
+}
+.form-field2,
+.form-field3 {
+  border: 0;
+  background-color: transparent;
+  height: 54px;
+  flex: 1;
+  font-family: "Work Sans";
+  font-size: 16px;
+  color: #d9d9d9;
+  min-width: 131px;
+}
+.card-information-parent,
+.form-field-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.card-information-parent {
+  flex-direction: column;
+}
+.carholder-name {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 128px;
+}
+.form-field4 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 54px;
+  font-family: "Work Sans";
+  font-size: 16px;
+  color: #d9d9d9;
+}
+.carholder-name-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.country-or-region,
+.usa {
+  position: relative;
+  line-height: 22px;
+}
+.usa {
+  display: inline-block;
+  min-width: 33px;
+}
+.form-field-child,
+.icon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.icon4 {
+  display: none;
+}
+.form-field5 {
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid #6d18f1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  gap: 20px;
+  color: #d9d9d9;
+}
+.country-or-region-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frame-input {
+  margin: 0;
+  height: 21px;
+  width: 21px;
+  border-radius: 4px;
+  border: 1px solid #6d18f1;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.i-verified-that {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  min-width: 253px;
+  max-width: 100%;
+}
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.contact-and-carholder-child {
+  width: 324.5px;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.i-verified-that1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 135%;
+}
+.button3 {
+  align-self: stretch;
+  height: 54px;
+}
+.contact-and-carholder {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: 16px;
+  color: #1c1c1c;
+  font-family: "Work Sans";
+}
+@media screen and (max-width: 450px) {
+  .payment-information {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .form-field-parent,
+  .form-field1,
+  .frame-group {
+    flex-wrap: wrap;
+  }
+  .button3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
